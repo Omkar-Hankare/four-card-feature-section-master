@@ -29,10 +29,10 @@ body {
 }
 
 .card-body img {
-  position: relative;
-  left: 73%;
-  top: -10px;
-  width: 20%;
+      position: relative;
+    left: 70%;
+    top: 25px;
+    width: 30%;
 }
 
 .cardrow {
