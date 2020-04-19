@@ -24,8 +24,8 @@ body {
   border-radius: 2%
 }
 .card-body {
-  text-align: left;
-  box-shadow: 0 0 35px -10px;
+      text-align: left;
+    box-shadow: 0 0 35px -8px #549ef2;
 }
 
 .card-body img {
