@@ -1,0 +1,121 @@
+body {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  background-color: #00000008;
+}
+
+.intro {
+  width: 82%;
+  margin: 5% auto 5%;
+}
+
+.intro h2 {
+  font-weight: bold;
+}
+
+.intro h3 {
+  font-size: 28px;
+}
+
+.intro p {
+  padding: 0 30.9%;
+}
+.card{
+  border-radius: 2%
+}
+.card-body {
+  text-align: left;
+  box-shadow: 0 0 35px -10px;
+}
+
+.card-body img {
+  position: relative;
+  left: 73%;
+  top: -10px;
+  width: 20%;
+}
+
+.cardrow {
+  margin: 0 auto;
+}
+
+.row {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.supervisor {
+  top: 125px;
+  position: absolute;
+  right: 0;
+  width: 300px;
+  height: 250px;
+  border-style: none;
+  border-top-style: solid;
+  border-width: 3px;
+  border-color: cyan;
+}
+
+.Team_Builder {
+  position: absolute;
+  left: 25px;
+  top: 0;
+  width: 300px;
+  height: 250px;
+  border-style: none;
+  border-top-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
+
+.Karma {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  top: 280px;
+  right: 55px;
+  border-style: none;
+  border-top-style: solid;
+  border-width: 3px;
+  border-color: Orange;
+}
+
+.Calculator {
+  border-style: none;
+  border-top-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  position: absolute;
+  right: -80px;
+  top: 125px;
+  width: 300px;
+  height: 250px;
+}
+
+footer {
+  position: relative;
+  top: 38rem;
+}
+
+@media only screen and (max-width:720px) {
+  .intro {
+    padding: 0;
+    margin: 15% 10% 10% 10%;
+  }
+
+  .intro p {
+    padding: 0 13.9%;
+  }
+
+  .row {
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+
+  .supervisor, .Team_Builder, .Calculator, .Karma {
+    position: static;
+    margin: 10px auto;
+  }
+}
